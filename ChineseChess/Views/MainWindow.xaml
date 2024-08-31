@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChineseChess"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="900" Width="1600">
+    <Grid Background="#FF62E6FF">
+        <ContentControl Content="ContentControl" Margin="0,134,0,0" Width="1600" Height="750"/>
+        <Button Content="结束游戏" HorizontalAlignment="Left" Height="70" Margin="10,28,0,0" VerticalAlignment="Top" Width="200" FontSize="36"/>
 
     </Grid>
 </Window>
